@@ -1,0 +1,63 @@
+{
+  "name": "CRM-Dashboard",
+  "private": true,
+  "version": "1.3.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "author": {
+    "name": "TailAdmin",
+    "email": "hello@tailadmin.com",
+    "url": "https://tailadmin.com"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@mantine/core": "^7.5.3",
+    "@mantine/hooks": "^7.5.3",
+    "@mantinex/mantine-logo": "^1.0.1",
+    "@mui/icons-material": "^5.15.10",
+    "@mui/material": "^5.15.10",
+    "@mui/x-date-pickers": "^6.19.4",
+    "@tabler/icons-react": "^2.47.0",
+    "antd": "^5.17.0",
+    "apexcharts": "^3.41.0",
+    "axios": "^1.6.8",
+    "dayjs": "^1.11.10",
+    "export-to-csv": "^1.2.2",
+    "firebase": "^10.11.1",
+    "flatpickr": "^4.6.13",
+    "headlessui": "^0.0.0",
+    "jsvectormap": "^1.5.3",
+    "match-sorter": "^6.3.1",
+    "material-react-table": "^2.11.2",
+    "react": "^18.2.0",
+    "react-apexcharts": "^1.4.1",
+    "react-dom": "^18.2.0",
+    "react-hot-toast": "^2.4.1",
+    "react-icons": "^4.10.1",
+    "react-router-dom": "^6.14.2",
+    "react-to-print": "^2.15.1",
+    "react-toastify": "^9.1.3",
+    "react-webcam": "^7.2.0",
+    "sort-by": "^0.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.56",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.3",
+    "autoprefixer": "^10.4.14",
+    "file-loader": "^6.2.0",
+    "postcss": "^8.4.35",
+    "postcss-preset-mantine": "^1.13.0",
+    "postcss-simple-vars": "^7.0.1",
+    "prettier": "^3.0.0",
+    "prettier-plugin-tailwindcss": "^0.4.1",
+    "tailwindcss": "^3.4.1",
+    "vite": "^4.5.2",
+    "webpack": "^5.88.2"
+  }
+}
