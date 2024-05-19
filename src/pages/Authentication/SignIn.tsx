@@ -32,7 +32,7 @@ const SignIn = () => {
       if (user.access === 'true') {
         // User has access, proceed with login
         login(token, user);
-        navigate('/Dashboard/security-camera');
+        navigate('/Dashboard/Cases');
       } else {
         // User does not have access, display an error message
         setError("You do not have access to the system.");

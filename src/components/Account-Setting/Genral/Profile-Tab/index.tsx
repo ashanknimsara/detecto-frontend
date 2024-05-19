@@ -181,6 +181,9 @@ const closeAccessDialog = () => {
                     <th className="min-w-[150px] py-4 px-4 font-medium text-black dark:text-white">
                       Phone Number
                     </th>
+                    <th className="min-w-[150px] py-4 px-4 font-medium text-black dark:text-white">
+                      Role
+                    </th>
                     <th className="py-4 px-4 font-medium text-black dark:text-white">
                       Action
                     </th>
@@ -210,6 +213,11 @@ const closeAccessDialog = () => {
                       <td className="border-b border-[#eee] py-5 px-4 dark:border-strokedark">
                         <p className="text-black dark:text-white">
                           {user.phone}
+                        </p>
+                      </td>
+                      <td className="border-b border-[#eee] py-5 px-4 dark:border-strokedark">
+                        <p className="text-black dark:text-white">
+                          {user.role.toLowerCase()}
                         </p>
                       </td>
                       <td className="border-b border-[#eee] py-5 px-4 dark:border-strokedark">

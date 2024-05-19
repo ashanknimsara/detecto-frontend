@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
 import SidebarLinkGroup from './SidebarLinkGroup';
 import { useAuth } from './../../context/AuthContext';
+import logo from './../../images/logo/logo.png';
 
 interface SidebarProps {
     sidebarOpen: boolean;
@@ -75,8 +76,8 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }: SidebarProps) => {
             {/* <!-- SIDEBAR HEADER --> */}
             <div className="flex items-center justify-between gap-2 px-6 py-5.5 lg:py-8.6">
                 <NavLink to="/">
-                    {/* <img src={Logo} alt="Logo" /> */}
-                    Detecto
+                <img src={logo} alt="Detecto Logo" /> 
+                    {/* Detecto */}
                 </NavLink>
 
                 <button
@@ -182,7 +183,7 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }: SidebarProps) => {
                                                     className={`translate transform overflow-hidden ${!open && 'hidden'
                                                         }`}
                                                 >
-                                                    <ul className="mt-4 mb-5.5 flex flex-col gap-2.5 pl-6">
+                                                    {/* <ul className="mt-4 mb-5.5 flex flex-col gap-2.5 pl-6">
                                                         <li>
                                                             <NavLink
                                                                 to="/Dashboard/security-camera"
@@ -194,7 +195,7 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }: SidebarProps) => {
                                                                Security Camera
                                                             </NavLink>
                                                         </li>
-                                                    </ul>
+                                                    </ul> */}
 
                                                     <ul className="mt-4 mb-5.5 flex flex-col gap-2.5 pl-6">
                                                         <li>
@@ -265,7 +266,7 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }: SidebarProps) => {
                                                 <ul className="mt-4 mb-5.5 flex flex-col gap-2.5 pl-6">
                                                     <li>
                                                         <NavLink
-                                                            to="/profile/account-setting/general"
+                                                            to="/profile/account-setting/general/general-info"
                                                             className={({ isActive }) =>
                                                                 'group relative flex items-center gap-2.5 rounded-md px-4 font-medium text-bodydark2 duration-300 ease-in-out hover:text-white ' +
                                                                 (isActive && '!text-white')

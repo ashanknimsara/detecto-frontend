@@ -113,7 +113,7 @@ const Signup = () => {
 
          
   
-        {error && <p className="text-red-500">{error}</p>}
+        {/* {error && <p className="text-red-500">{error}</p>} */}
       </div>
       <Alert severity="info" onClose={handleCloseAlert}sx={{ position: 'absolute', bottom: 16, right: 16, zIndex: 9999 }} open={showAlert}>
         Admin will give access to the Detecto System
